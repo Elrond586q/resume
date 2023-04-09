@@ -7,32 +7,72 @@
     <title>Document</title>
     <meta name="keywords" content="html, course">
     <meta name="description" content="Это базовый курс">
+    <link rel="stylesheet" href="/CSS-course/style.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    <img src="https://sun9-79.userapi.com/impf/xWwg1G1X3BaJvrZ9eB2ttNA_jBP_4cDSSvSt-A/apQH-_wOhEE.jpg?size=720x1080&quality=96&sign=974b26de911d9ecacb08e02268cd97dd&type=album" alt="" width="150">
+   <div class="container">
+    <div class="info">
+    <img class="avatar" src="https://sun9-79.userapi.com/impf/xWwg1G1X3BaJvrZ9eB2ttNA_jBP_4cDSSvSt-A/apQH-_wOhEE.jpg?size=720x1080&quality=96&sign=974b26de911d9ecacb08e02268cd97dd&type=album" alt="" >
+    <div class="info-text">
     <h1>Tabolich Ilya</h1>
-    <p>Я <strong><em>учитель</em>  ФК</strong> </p>
-<h4>Моя соц сеть:</h4>
-<a href="https://vk.com/eruhery" target="_blank">VK</a>
-<ul>Мои хобби
+    <p>Я учитель  ФК Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis error commodi necessitatibus nihil optio voluptate tenetur dignissimos suscipit deserunt, totam dolorum obcaecati illum neque cum consequuntur esse! Quisquam, voluptatibus cumque. </p>
+    <div class="social">
+        <h4>Моя соц сеть:</h4>
+        <a href="https://vk.com/eruhery" target="_blank" class="btn">VK</a>
+        </div>
+</div>
+</div>
+
+<div class="card css">
+    <ul class="list">Мои хобби:
     <li>Волейбол</li>
     <li>Дерево</li>
 </ul>
-<form action=""><strong>Связатся со мной</strong>
-    <div>
+</div>
+<div class="card work">
+    <table>
+        <thead> Опыт работы
+<th>Название</th>
+<th>Должность</th>
+<th>Год</th>
+        </thead>
+        <tbody>
+<tr>
+    <td>Мбу "Спортивный комплекс"</td>
+    <td>Методист</td>
+    <td>2019-2022г.</td>
+</tr>
+<tr>
+    <td>Гимназия №164</td>
+    <td>Учитель</td>
+    <td>с 2022г.</td>
+</tr>
+        </tbody>
+    </table>
+</div>
+<div class="card html">
+    <ul>Мои Курсы:
+    <li><a href="https://lk.result.school/teach/control/stream/view/id/695281402" target="_blank">HTML & CSS − это первый шаг, чтобы стать IT-разработчиком</a></li>
+</ul>
+</div>
+<form action="/" class="form"><h2>Связатся со мной</h2>
+    <div class="form-row">
+    <div class="form-group">
         <label for="name">Ваше Имя</label>
         <input type="text" id="name">
     </div>
-    <div>
+    <div class="form-group">
         <label for="Email">Email</label>
         <input type="text" id="Email">
     </div>
-    <div>
+</div>
+    <div class="form-group">
         <label for="message">Сообщение</label>
-        <br>
         <textarea  id="message"></textarea>
     </div>
-    <button type="submit">Отправить!</button>
+    <button class="btn" type="submit">Отправить!</button>
 </form>
+</div>
 </body>
 </html>
